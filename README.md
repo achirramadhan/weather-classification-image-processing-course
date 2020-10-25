@@ -1,5 +1,5 @@
 # Weather Classification
-Lab 4 assignment of Image Processing course.
+Lab 4 assignment of Image Processing course, November 2019.
 
 Team member:
 - Gagah Pangeran Rosfatiputra
@@ -10,7 +10,7 @@ In this assignment, we were asked to create a classifier that classify the image
 
 We were doing this task using four approaches:
 1. **Hand-crafted features**. We extract the color features (R, G, B, Saturation) and the textures (Contrast, Angular Second Moment, Homogeneity) of the images, and classify the images based on the features using Support Vector Machine.
-2. **PCA**. We directly extract the PCA of the images and classify it using Support Vector Machine.
+2. **PCA**. We directly extract the PCA of the images and classify it using Support Vector Machine. However, we are prohibited to use any PCA library.
 3. **Hand-crafted features + PCA**. We extract the PCA of the extracted features that is mentioned in approach (1) and use SVM to classify the images based on its PCA.
 4. **Neural Network**. We use CNN to classify the images.
 
